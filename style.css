@@ -315,4 +315,8 @@ a:hover {
     align-items: center;
     justify-content: center;      
 }
-
+.about svg{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
