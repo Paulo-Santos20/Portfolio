@@ -10,14 +10,14 @@ body {
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: #60e1e0;
+    background-color: #c5e5f5;
     background-image: url('./img/background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
     padding: 0 112px;
@@ -47,14 +47,14 @@ h2 {
     color: #1e1e2a;
     padding: 1rem 4rem;
     border: 1px solid #1E1E2A;
-    min-width: 4REM;
+    min-width: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .5s ease-in-out;
+    transition: .5s ease-in-out;    
 }
 
-a:houver {
+a:hover {
     background-color: #ffffff;
 }
 
@@ -62,7 +62,6 @@ a:houver {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .checkbox {
