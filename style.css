@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    color: #1e1e2a;
+    color: #ac2828;
 }
 
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: #c5e5f5;
+    background-color: #000000;
     background-image: url('./img/background.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -44,9 +44,9 @@ h2 {
 
 .social-media a {
     text-decoration: none;
-    color: #1e1e2a;
+    color: #ac2828;
     padding: 1rem 4rem;
-    border: 1px solid #1E1E2A;
+    border: 1px solid #ac2828;
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -65,8 +65,8 @@ a:hover {
 }
 
 .checkbox {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: absolute;
     right: 0;
     top: 0;
@@ -80,7 +80,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: #1E1E2A;
+    background-color: #ac2828;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -113,7 +113,7 @@ a:hover {
     height: 4px;
     width: 10px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #ffffff;
+    box-shadow: 0px 0px 0px 0px #ac2828;
     z-index: -1;
     transition: 400ms ease-in-out 0s;
 }
@@ -122,8 +122,8 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100vh;
+    width: 180%;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +139,7 @@ a:hover {
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: #1E1E2A;
+    color: #ac2828;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -168,7 +168,7 @@ a:hover {
 }
 
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 100vmax #ffffff;
+    box-shadow: 0px 0px 0px 20vmax #ffffff;
     z-index: 1;
 }
 
@@ -201,7 +201,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #60e1e0;
+    background-color: #000000;
     background-image: url('./img/background.png');
     background-position: center;
     background-size: cover;
