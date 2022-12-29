@@ -54,8 +54,8 @@ h2 {
     transition: .5s ease-in-out;    
 }
 
-a:hover {
-    background-color: #ffffff;
+a:hover {    
+    background-color: #f8f3f3;
 }
 
 .checkbox-container {
@@ -122,8 +122,8 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    width: 180%;
-    height: 40vh;
+    width: 100%;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,15 +134,16 @@ a:hover {
 }
 
 .menu-items ul {
-    list-style: none;
+    list-style: none;    
 }
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: #ac2828;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
+    line-height: 90px;
     font-size: 40px;
 }
 
@@ -164,12 +165,13 @@ a:hover {
 }
 
 #toggle:checked+.checkbox {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 20vmax #ffffff;
+    box-shadow: 0px 0px 0px 100vmax #0000007b;     
     z-index: 1;
+
 }
 
 #toggle:checked ~ .menu-items {
