@@ -24,19 +24,38 @@ body {
     box-sizing: border-box;
     padding: 0 112px;
     position: relative;
-
-
 }
 
 h1 {
     font-size: 50px;
-    text-transform: uppercase;
+    text-transform:initial;
     letter-spacing: 4px;
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+h3{
+    text-transform:initial;
+    letter-spacing: 4px;
+    font-size: 40px;    
+}
+h4{
+    text-transform:initial;
+    letter-spacing: 4px;
+    font-size: 18px;  
+    color: rgba(255, 255, 254, 0.672);
+    text-align: center;    
+    
+}
+h4 p{    
+    text-transform: initial;    
+    width: 800px;    
+    height: 200px;
+    text-align: center;
+    margin-left: 500px;
 }
 
 .social-media {
@@ -220,6 +239,9 @@ a:hover {
     width: 40%;
     letter-spacing: 1px;
     color: rgb(246, 246, 246);
+    align-items: center;
+    POSITION: center;
+    display: block;
 }
 
 .card-wrapper {
@@ -246,7 +268,7 @@ a:hover {
 
 .card-wrapper h2 {
     font-size: 40px;
-    text-transform: uppercase;
+    text-transform: initial;
     letter-spacing: 4px;
     margin: 0;
     transition: 0.5s ease-in-out;
@@ -286,3 +308,11 @@ a:hover {
     justify-content: center;
     color: #ffffff;
 }
+.about {   
+    text-align: center;    
+    letter-spacing: 1px;
+    color: rgb(236, 236, 236);
+    align-items: center;
+    justify-content: center;      
+}
+
