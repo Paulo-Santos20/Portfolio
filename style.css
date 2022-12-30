@@ -48,19 +48,8 @@ h4 {
     text-transform: initial;
     letter-spacing: 4px;
     font-size: 18px;
-    color: rgba(255, 255, 254, 0.672);
-    text-align: center;
-
+    color: rgba(255, 255, 254, 0.672);    
 }
-
-h4 p {
-    text-transform: initial;
-    width: 800px;
-    height: 200px;
-    text-align: center;
-    margin-left: 500px;
-}
-
 .social-media {
     margin-top: 1rem;
     display: flex;
@@ -315,10 +304,15 @@ a:hover {
 .about {
     text-align: center;
     letter-spacing: 1px;
-    color: rgb(236, 236, 236);
-    align-items: center;
-    justify-content: center;
-}
+    color: rgb(236, 236, 236);          
+    line-height: 180%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    margin: auto;
+    width: 50%;
+   
+}   
 
 .about svg {
     height: 100px;
@@ -327,21 +321,36 @@ a:hover {
     color: red;
     background-color: #352c2c;
 }
-.habilidades{
-    display: grid;
-    grid-template-columns: 400px 400px;    
+.habilidades {
+    display: inline-block;
+    grid-template-columns: 400px 400px; 
+    text-align: center; 
+    align-items: center;  
+    margin: auto;   
 }
-
 .habilidades svg {
-    display: grid;
+    display: inline-block;
     grid-template-columns: 400px 400px;
     margin-top: 1rem;
     text-decoration: none;
     padding: 1rem 4rem;
-    border: 1px solid #ac2828;
-    min-width: 4rem;
-    align-items: center;
-    justify-content: center;
-    transition: .5s ease-in-out;
+    border: 1px solid #ac2828;       
+    transition: .5s ease-in-out; 
+    width: auto;       
+  }       
+  .habilidades p{
+    display: inline-block;  
+    position:relative;    
+    font-size: 40px;
+    color: rgb(255, 255, 255); 
+  }
 
+.habilidades svg:hover {
+    background-color: #fffcfc;    
+        content: "Texto do popup";
+        text-shadow: #f0efef;   
 }
+  
+ 
+  
+  
