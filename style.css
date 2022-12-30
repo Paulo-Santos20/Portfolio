@@ -48,8 +48,9 @@ h4 {
     text-transform: initial;
     letter-spacing: 4px;
     font-size: 18px;
-    color: rgba(255, 255, 254, 0.672);    
+    color: rgba(255, 255, 254, 0.672);
 }
+
 .social-media {
     margin-top: 1rem;
     display: flex;
@@ -304,15 +305,15 @@ a:hover {
 .about {
     text-align: center;
     letter-spacing: 1px;
-    color: rgb(236, 236, 236);          
-    line-height: 180%;    
+    color: rgb(236, 236, 236);
+    line-height: 180%;
     display: flex;
     flex-direction: column;
-    align-items: center;        
+    align-items: center;
     margin: auto;
     width: 50%;
-   
-}   
+
+}
 
 .about svg {
     height: 100px;
@@ -321,36 +322,40 @@ a:hover {
     color: red;
     background-color: #352c2c;
 }
+
 .habilidades {
     display: inline-block;
-    grid-template-columns: 400px 400px; 
-    text-align: center; 
-    align-items: center;  
-    margin: auto;   
+    grid-template-columns: 400px 400px;
+    text-align: center;
+    align-items: center;
+    margin: auto;     
 }
+
 .habilidades svg {
     display: inline-block;
     grid-template-columns: 400px 400px;
-    margin-top: 1rem;
+    margin-top: 3rem;
     text-decoration: none;
-    padding: 1rem 4rem;
-    border: 1px solid #ac2828;       
-    transition: .5s ease-in-out; 
-    width: auto;       
-  }       
-  .habilidades p{
-    display: inline-block;  
-    position:relative;    
-    font-size: 40px;
-    color: rgb(255, 255, 255); 
-  }
+    padding: 1rem 1rem;
+    border: 1px solid #ac2828;
+    transition: .5s ease-in-out;
+    width: auto;
+    position: relative;
+    margin-left: 200px; 
+           
+}
+
+.habilidades p {
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(255, 255, 255);       
+    margin-top: 1rem;
+    margin-right: 2rem;       
+}
 
 .habilidades svg:hover {
-    background-color: #fffcfc;    
-        content: "Texto do popup";
-        text-shadow: #f0efef;   
+    background-color: #fffcfc;
+    content: "Texto do popup";
+    text-shadow: #f0efef;
 }
-  
- 
-  
-  
