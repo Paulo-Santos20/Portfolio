@@ -265,6 +265,7 @@ a {
     margin: 15px 0 0;
     display: inline-block;
     
+    
 }
 
 a:hover {
@@ -288,4 +289,17 @@ a:hover {
 
 .habilidades {
     margin-top: 150px;
+}
+
+.projetos img{
+    height: 135px;
+    width: 300px;    
+}
+
+.habilidades a{
+    outline : 1px dashed #333
+}
+
+.projetos a{
+    outline : 1px dashed #333
 }
