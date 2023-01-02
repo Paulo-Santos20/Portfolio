@@ -6,8 +6,8 @@
  - Sobre mim
  - Habilidades
  - Alterar o Menu do site para ser fixo
- # Oque falta fazer: 
- - Colocar meu curriclo acima para baixar
  - Alterar Hover das habilidades
  - Adicionar fotos e projetos criados
+ # Oque falta fazer: 
+ - Colocar meu curriclo acima para baixar
  - Colocar meus contatos( WhatsApp e Email pessoal abaixo)
