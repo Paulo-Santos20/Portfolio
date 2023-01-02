@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;800;900&display=swap');
 
 body {
-
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     background: rgb(0, 0, 0);
@@ -10,7 +9,9 @@ body {
     padding:0;
     min-height: 100vh;    
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    
+   
 }
 
 #menu-itens header {
@@ -36,25 +37,26 @@ body {
     margin-left: 70rem;
     position: relative;
     border-radius: 8px;
+    box-sizing: border-box;  
 }
 
-#menu-itens ul li {
+#menu-itens  li {
     display: inline;
-
 }
 
-#menu-itens ul li a {
+#menu-itens  li a {
     color: #fff;
     padding: 20px;
     display: inline-block;
     text-decoration: none;
     transition: all.4s;
-
+    display: in;
 }
 
-#menu-itens ul li a:hover {
+#menu-itens  li a:hover {
     background-color: #ac2828;
-
+    
+    
 }
 
 h1 {
@@ -95,7 +97,7 @@ h4 {
 
 .social-media a {
     text-decoration: none;
-    color: #ffffff;
+    color: #f9f9f9;
     padding: 1rem 4rem;
     border: 2px solid #ac2828;
     min-width: 4rem;
@@ -103,10 +105,12 @@ h4 {
     transition: .5s ease-in-out;
     border-radius: 30px;
     margin: 10px;
+    background-color:rgba(103, 91, 91, 0.8);
 }
 
 a:hover {
     background-color: #ee0000;
+   
 }
 
 .menu-items {
@@ -190,10 +194,10 @@ a:hover {
 .container {
     width: 1000px;
     position: relative;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    margin: 0 10px 10px 0;
 }
 
 .card {
@@ -283,15 +287,27 @@ a {
 a {
     text-decoration: none;
     color: black;
-    box-sizing: border-box;
-    outline: 1px dashed #333;
+    box-sizing: border-box;    
     padding: 10px;
     margin: 15px 0 0;
     display: inline-block;
 }
 
 a:hover {
-    background: #333;
+    background: rgb(158, 17, 17);
     color: whitesmoke;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+hab{
+    display:flex;
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    transition: .5s ease-in-out;    
+    
+}
+
