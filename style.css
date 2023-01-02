@@ -1,41 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;800;900&display=swap');
+
 
 body {
 
-    margin: 0;
-    padding: 0;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     background: rgb(0, 0, 0);
 
 }
 
-.header-container {
-    height: 500px;
-    width: 100vw;
-    background-color: #000000;
-    background-image: url('./img/background.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+#menu-itens header {
+    position: flex;
+}
+
+.header {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
-    padding: 0 112px;
-    position: relative;
+    align-items: center;
+}
+.header img {
+    width: 40%;    
+    position: flex;
+    margin-right: 20rem;
+
+}
+
+#menu-itens {
+    list-style: none;
+    padding: 0;
+    background-color: #000000;
+    margin-left: 70rem;
+}
+
+#menu-itens ul li {
+    display: inline;
+
+}
+
+#menu-itens ul li a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all.4s;
+
+}
+
+#menu-itens ul li a:hover {
+    background-color: #ac2828;
+
 }
 
 h1 {
     font-size: 50px;
     text-transform: initial;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 h3 {
@@ -53,83 +80,27 @@ h4 {
 
 .social-media {
     margin-top: 1rem;
-    display: flex;
+    display:flex;
+    min-width: 4rem;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
 }
 
 .social-media a {
     text-decoration: none;
     color: #ffffff;
     padding: 1rem 4rem;
-    border: 1px solid #ac2828;
+    border: 2px solid #ac2828;
     min-width: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;    
     transition: .5s ease-in-out;
+    border-radius: 30px;
+    margin:10px;
 }
 
 a:hover {
     background-color: #ee0000;
-}
-
-.checkbox-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.checkbox {
-    height: 120px;
-    width: 150px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 9999;
-    transition: 400ms ease-in-out 0s;
-}
-
-.checkbox .trace {
-    width: 50px;
-    height: 2px;
-    background-color: #ac2828;
-    position: absolute;
-    border-radius: 4px;
-    transition: 0.5s ease-in-out;
-}
-
-.checkbox .trace:nth-child(1) {
-    top: 26px;
-    transform: rotate(0);
-}
-
-.checkbox .trace:nth-child(2) {
-    top: 46px;
-    transform: rotate(0);
-}
-
-.checkbox .trace:nth-child(3) {
-    top: 66px;
-    transform: rotate(0);
-}
-
-#toggle {
-    display: none;
-}
-
-.menu {
-    position: absolute;
-    top: 28px;
-    right: 30px;
-    background-color: transparent;
-    height: 4px;
-    width: 10px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #ac2828;
-    z-index: -1;
-    transition: 400ms ease-in-out 0s;
 }
 
 .menu-items {
@@ -145,6 +116,7 @@ a:hover {
     opacity: 0;
     visibility: hidden;
     transition: 400ms ease-in-out 0s;
+
 }
 
 .menu-items ul {
@@ -159,38 +131,6 @@ a:hover {
     letter-spacing: 4px;
     line-height: 90px;
     font-size: 40px;
-}
-
-#toggle:checked+.checkbox .trace:nth-child(1) {
-    transform: rotate(45deg);
-    top: 47px;
-}
-
-#toggle:checked+.checkbox .trace:nth-child(2) {
-    transform: translate(-100px);
-    top: 30px;
-    visibility: hidden;
-    opacity: 0;
-}
-
-#toggle:checked+.checkbox .trace:nth-child(3) {
-    transform: rotate(-45deg);
-    top: 48px;
-}
-
-#toggle:checked+.checkbox {
-    background-color: #c96e6e7b;
-}
-
-#toggle:checked~.menu {
-    box-shadow: 0px 0px 0px 100vmax #c96e6e7b;
-    z-index: 1;
-
-}
-
-#toggle:checked~.menu-items {
-    visibility: visible;
-    opacity: 1;
 }
 
 .container {
@@ -328,7 +268,7 @@ a:hover {
     grid-template-columns: 400px 400px;
     text-align: center;
     align-items: center;
-    margin: auto;     
+    margin: auto;
 }
 
 .habilidades svg {
@@ -341,17 +281,17 @@ a:hover {
     transition: .5s ease-in-out;
     width: auto;
     position: relative;
-    margin-left: 200px; 
-           
+    margin-left: 200px;
+
 }
 
 .habilidades p {
     display: inline-block;
     position: absolute;
     font-size: 20px;
-    color: rgb(255, 255, 255);       
+    color: rgb(255, 255, 255);
     margin-top: 1rem;
-    margin-right: 2rem;       
+    margin-right: 2rem;
 }
 
 .habilidades svg:hover {
