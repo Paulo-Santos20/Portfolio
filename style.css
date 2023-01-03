@@ -175,7 +175,6 @@ h4 {
     width: 300px;
     height: 200px;
     transition: .4s;
-
 }
 
 .face1 {
@@ -187,7 +186,6 @@ h4 {
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
-
 }
 
 .card:hover .face.face1 {
@@ -253,7 +251,6 @@ a {
     margin: 0;
     padding: 0;
     color: #333;
-
 }
 
 a {
@@ -263,14 +260,11 @@ a {
     padding: 10px;
     margin: 15px 0 0;
     display: inline-block;
-
-
 }
 
 a:hover {
     background: #ac2828;
     color: whitesmoke;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -283,7 +277,6 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     transition: .5s ease-in-out;
     background: rgba(81, 81, 81, 0.501);
-
 }
 
 .habilidades {
@@ -302,14 +295,17 @@ a:hover {
 .projetos a {
     outline: 1px dashed #333
 }
-.contatos{
+
+.contatos {
     background: linear-gradient(315deg rgb(252, 252, 252), #29609e 74%);
     width: 100%;
     height: 100%;
     display: grid;
     place-items: center;
     transition: all 0.3s ease-out;
+    cursor: pointer;
 }
+
 .wrapper .button {
     display: block;
     width: 60px;
@@ -329,7 +325,7 @@ a:hover {
 }
 
 .wrapper .button:nth-child(1):hover .icon {
-    background: #04581d;
+    background: #56df01;
 }
 
 .wrapper .button:nth-child(2):hover .icon {
@@ -353,6 +349,7 @@ a:hover {
     line-height: 60px;
     text-align: center;
     transition: all 0.3s ease-out;
+    position: relative;
 }
 
 .wrapper .button .icon i {
@@ -366,7 +363,6 @@ a:hover {
     line-height: 60px;
     font-weight: 500;
     margin-left: 10px;
-
 }
 
 .wrapper .button:hover {
@@ -374,7 +370,7 @@ a:hover {
 }
 
 .wrapper .button:nth-child(1):hover span {
-    color: #04581d;
+    color: #56df01;
 }
 
 .wrapper .button:nth-child(2):hover span {
@@ -387,4 +383,24 @@ a:hover {
 
 .wrapper .button:nth-child(4):hover span {
     color: #2f59ad;
+}
+
+.contatos wrapper button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px 0 0;
+    display: inline-block;
+    background-color: #2f59ad;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.button a {
+    cursor: pointer;
+    background-color: #333;
+
 }
