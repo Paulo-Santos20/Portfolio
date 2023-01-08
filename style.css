@@ -18,7 +18,6 @@
     #menu-itens header {
         position: flex;
         max-width: 100%;
-        
     }
 
     .header {
@@ -27,6 +26,7 @@
         justify-content: center;
         align-items: center;
         max-width: 100%;
+        
     }
 
     .header img {
@@ -59,7 +59,8 @@
         text-decoration: none;
         transition: all.4s;        
         max-width: 100%;
-        
+        border-radius: 20px;
+
     }
 
     #menu-itens li a:hover {
