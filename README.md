@@ -8,8 +8,9 @@
  - Alterar o Menu do site para ser fixo
  - Alterar Hover das habilidades
  - Adicionar fotos e projetos criados
-  - Colocar meus contatos( WhatsApp e Email pessoal abaixo)
- # Oque falta fazer: 
+ - Colocar meus contatos( WhatsApp e Email pessoal abaixo)
  - Colocar meu curriclo acima para baixar
+ # Oque falta fazer: 
+ - Rolar o site ao clicar no menu
  - Ser mais responsivo
 

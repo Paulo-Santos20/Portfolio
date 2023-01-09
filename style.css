@@ -76,36 +76,36 @@ a:nth-child(5) {
 
 .start-home,
 a:nth-child(1):hover~.animation {
-    width: 100px;
+    width: 6vw;
     left: 0;
     background-color: #1abc9c;
 }
 
 .start-about,
 a:nth-child(2):hover~.animation {
-    width: 110px;
+    width: 6vw;
     left: 100px;
     background-color: #e74c3c;
 }
 
 .start-blog,
 a:nth-child(3):hover~.animation {
-    width: 100px;
+    width: 6.5vw;
     left: 210px;
     background-color: #3498db;
 }
 
 .start-portefolio,
 a:nth-child(4):hover~.animation {
-    width: 160px;
-    left: 310px;
+    width: 6.5vw;
+    left: 340px;
     background-color: #9b59b6;
 }
 
 .start-contact,
 a:nth-child(5):hover~.animation {
-    width: 120px;
-    left: 470px;
+    width: 6.5vw;
+    left: 490px;
     background-color: #e67e22;
 }
 
