@@ -96,6 +96,7 @@ a:nth-child(5) {
     position: relative;
     box-sizing: border-box;
     max-width: 100%;
+    
 }
 
 h1 {
@@ -104,13 +105,13 @@ h1 {
     letter-spacing: 4px;
     text-align: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: center;
+    text-align: center;    
 }
 
 h3 {
@@ -136,6 +137,7 @@ h4 {
     justify-content: center;
     transition: .5s ease-in-out;
     flex-wrap: wrap;
+    height: 20vh;
 }
 
 .social-media a {
@@ -152,19 +154,19 @@ h4 {
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .about {
     text-align: center;
     letter-spacing: 1px;
-    color: rgb(236, 236, 236);
-    line-height: 180%;
+    color: rgb(236, 236, 236);    
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
     width: 50%;
-
+    
 }
 
 .about svg {
@@ -176,7 +178,6 @@ h4 {
     align-items: center;
     justify-content: center;
     transition: .5s ease-in-out;
-
 }
 
 .habilidades {
