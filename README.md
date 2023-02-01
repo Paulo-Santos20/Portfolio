@@ -10,7 +10,8 @@
  - Adicionar fotos e projetos criados
  - Colocar meus contatos( WhatsApp e Email pessoal abaixo)
  - Colocar meu curriclo acima para baixar
- # Oque falta fazer: 
  - Rolar o site ao clicar no menu
+ 
+ # Oque falta fazer:  
  - Ser mais responsivo
 
